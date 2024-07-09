@@ -11,5 +11,5 @@ export type Choice={
 
 export type GradientBackground={
     name:string,
-    value:string
+    class:string
 }
