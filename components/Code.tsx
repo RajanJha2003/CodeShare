@@ -47,6 +47,7 @@ const Code: React.FC = () => {
         "h-96 w-2/3 max-w-4xl rounded-xl border-[1px] py-4",
         "transition-colors duration-300 ease-in-out"
       )}
+      style={{ marginTop: "150px" }}
     >
       <div
         ref={containerRef}
@@ -67,6 +68,7 @@ const Code: React.FC = () => {
                   "absolute w-full resize-none overflow-hidden whitespace-pre-wrap break-words break-keep bg-transparent pl-16 pr-3 font-mono text-transparent",
                   "caret-pink-500 selection:bg-pink-500/30 placeholder:text-white/20 focus:outline-none"
                 )}
+               
               />
               <pre
                 ref={preRef}
